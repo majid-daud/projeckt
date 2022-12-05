@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+
+}
+body {
+    background-color: rgb(229, 223, 234);
+}
+.full {
+    width:100%;
+    height: 100vh;
+    background-color: red;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color:rgb(126, 53, 126);
+
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.name {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+
+}
+
+span {
+    color: white;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul  li a:hover {
+    color: white;
+    transition: .4s;
+}
+
+.in {
+    background-color: rgb(251, 246, 250);
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.in:hover {
+    color: white;
+    background-color: black;
+    transition: .4s;
+    transform: scale(1.15);
+    
+}
+
+.mid-sec {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+h1 {
+    margin: 20px 0px;
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(84, 32, 84);
+    font-size: 20px;
+    letter-spacing: 2px;
+} 
+
+.email form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.email form input:first-child {
+    display: inline-block;
+    width: 100px;
+    padding: 14px 362px 14px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.email form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:rgb(126, 53, 126);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px  purple;
+    top: 6px;
+    right: 6px;
+}
+
+.email form input:last-child:hover {
+    color: purple;
+    background-color: white;
+
+}
+
+.about {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.about  div img {
+      height: 450px;
+      width: auto;
+      border-radius: 5%;
+}
+
+.about div:last-child {
+    width: 1150px;
+}
+
+.main {
+    width: 1300px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+section div div h2 {
+
+    font-size: 60px;
+    color: white;
+    box-shadow: 0px 10% purple;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    
+}
+
+section div div h4 {
+font-size: 45px;
+margin-bottom: 15px;
+margin-left: 50px;
+letter-spacing: 1px;
+} 
+
+section div div p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    
+}
+
+section div div button {
+    padding: 13px 30px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+section div div button:hover{
+    background-color:rgb(229, 223, 234) ;
+    color: purple;
+    transition: .4s;
+    border: 1px solid purple;
+}
+
+.services {
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    background-color: purple;
+}
+
+.titel h2{
+
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    width: 1330px;
+    margin: 30px auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 400px;
+}
+
+.card { 
+    height: 365px;
+    width: 335px;
+    background-color: rgb(229, 223, 234);
+    padding: 20px 35px;
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+h5 {
+font-size: 30px;
+color: rgb(84, 32, 84);
+margin-bottom: 15px;
+}
+
+.pra p {
+    font-style: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.pra a {
+    font-style: none;
+    color:rgb(229, 223, 234) ;
+    background-color: purple;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pra a:hover {
+    color: purple;
+    border:1px solid purple;
+    background-color:rgb(229, 223, 234) ;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+.contact-me {
+    position: absolute;
+    top: 280%;
+    width: 100%;
+    height: 300px;
+}
+
+.contact-me p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    color: purple;
+    margin-bottom: 50px;
+}
+
+.contact-me a {
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 30px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 47%;
+    margin-bottom: 50px;
+}
+
+.contact-me a:hover {
+    background-color:rgb(229, 223, 234) ;
+    color: purple;
+    transition: .4s;
+    border: 1px solid purple;
+}
+}
